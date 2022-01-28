@@ -1,0 +1,103 @@
+.home-page {
+  background: #000;
+  border-bottom: 3px solid white;
+}
+
+.home-page .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 50px;
+}
+
+.home-page .container .home-image img {
+  height: 600px;
+}
+
+.home-page .container .home-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.home-page .container .home-text h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.home-page .container .home-text img {
+  height: 80px;
+}
+
+.category-page {
+  background: black;
+  height: 70vh;
+}
+
+.category-page .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.category-page .container .category-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.category-page .container .category-text h1 {
+  font-size: 40px;
+}
+
+.category-page .container .boxes {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.category-page .container .boxes h3 {
+  font-size: 30px;
+}
+
+.category-page .container .boxes i {
+  padding: 30px;
+  font-size: 60px;
+  border-radius: 10px;
+  color: white;
+  background: #00ef00;
+}
+/*# sourceMappingURL=style.css.map */
